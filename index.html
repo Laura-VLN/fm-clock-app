@@ -3,22 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
   <title>Frontend Mentor | Clock App</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
 </head>
 <body>
-  , it's currently
+  <main>
+    <section class="blockquote">
+      <div class="blockquote-container">
+        <div class="quote-container">
+          <p class="quote" id="quote"></p>
+          <p class="author" id="author"></p>
+        </div>
+        <div class="refresh-quote-container">
+          <button class="refresh-quote">
+            <img src="assets/desktop/icon-refresh.svg" alt="Button to suggest a new quote.">
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <p class="">, it's currently</p>
+      <p id="hour"></p>
+      <p>in</p>
+    </section>
 
-  in
+    <button class="more">More</button>
+    <button class="less">Less</button>
 
-  More
-  Less
-
-  Current timezone
-  Day of the year
-  Day of the week
-  Week number
+    <p class="timezone" id="timezone">Current timezone</p>
+    Day of the year
+    Day of the week
+    Week number
+  </main>
 </body>
 </html>

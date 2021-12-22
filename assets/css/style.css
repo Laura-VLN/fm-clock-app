@@ -1,0 +1,48 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body {
+  background-image: url("../mobile/bg-image-daytime.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+main {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.blockquote-container {
+  width: 324px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.quote-container {
+  width: 290px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.refresh-quote-container {
+  width: 16.67px;
+}
+/*# sourceMappingURL=style.css.map */
