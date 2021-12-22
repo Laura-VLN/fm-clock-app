@@ -10,17 +10,15 @@
 </head>
 <body>
   <main>
-    <section class="blockquote">
-      <div class="blockquote-container">
-        <div class="quote-container">
-          <p class="quote" id="quote"></p>
-          <p class="author" id="author"></p>
-        </div>
-        <div class="refresh-quote-container">
-          <button class="refresh-quote">
-            <img src="assets/desktop/icon-refresh.svg" alt="Button to suggest a new quote.">
-          </button>
-        </div>
+    <section class="blockquote-container">
+      <div class="quote-container">
+        <p class="quote" id="quote"></p>
+        <p class="author" id="author"></p>
+      </div>
+      <div class="refresh-quote-container">
+        <button class="refresh-quote" onclick="quoteRefresh()">
+          <img class="refresh-icon" src="assets/desktop/icon-refresh.svg" alt="Button to suggest a new quote.">
+        </button>
       </div>
     </section>
     <section>

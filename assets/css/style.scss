@@ -8,15 +8,16 @@ body {
         size: cover;
     }
     font: {
-        family: 'Inter Regular', sans-serif;
+        family: 'Inter', sans-serif;
         size: 18px;
     }
     line-height: 28px;
-    color: #FFFFFF;
+    color: #000;
 }
 
 main {
-    margin: 0 auto;
+    margin-top: 31.67px;
+    margin-left: 26px;
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +30,8 @@ button {
 .blockquote-container {
     width: 324px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    line-height: 22px;
 }
 
 .quote-container {
@@ -38,7 +40,12 @@ button {
     text-align: left;
 }
 
-.refresh-quote-container {
+.author {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.refresh-icon {
     width: 16.67px;
 }
 
