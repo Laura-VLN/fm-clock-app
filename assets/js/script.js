@@ -7,14 +7,6 @@ fetch('http://worldtimeapi.org/api/ip')
 let quote = document.getElementById('quote')
 let author = document.getElementById('author')
 
-fetch('https://programming-quotes-api.herokuapp.com/quotes/random')
-.then(res => res.json())
-.then(data => {
-    console.log(data);
-    quote.innerHTML = "\“" + data.en + "\”"
-    author.innerHTML = data.author
-})
-
 function quoteRefresh() {
     fetch('https://programming-quotes-api.herokuapp.com/quotes/random')
     .then(res => res.json())
